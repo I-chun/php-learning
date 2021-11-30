@@ -7,17 +7,15 @@ function welcome($name = null){
     
 welcome("Jett");// output : welcome Jett
 
-
 // 不同狀況做不同的事時可用condition
 $gender = 'male';
 
 if( $gender === 'male' ){
-    echo "男生";    
+    echo "男生";
 }else if( $gender === 'female' ){
-    echo "女生";    
+    echo "女生";
 }else{
     echo "性別開放";
 }
-
 
 ?>
