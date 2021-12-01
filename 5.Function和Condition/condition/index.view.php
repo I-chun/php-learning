@@ -19,7 +19,7 @@
             <?php if( $task['completed']) : ?>
                 <span class='icon'>&#9989;</span>
             <?php else : ?>
-                <span class='icon'>&#9989;</span>
+                <span class='icon'>uncompleted</span>
             <?php endif; ?>
         </li>
     </ul>
